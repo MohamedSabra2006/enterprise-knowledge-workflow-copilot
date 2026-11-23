@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Generated vector database
+data/qdrant/
+
+# Model caches
+.cache/
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
